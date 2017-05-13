@@ -6,7 +6,7 @@ The program reads from two input files, “courses.csv” and “prerequisites.c
 ## Problem Analysis
 The problem involves the “number of ways” a student can complete a course. Without the given pre-requisites, this problem is reduced to a simple permutation algorithm. With pre-requisites imposed, the solution is to take a subset of the permutation result between all course ids, or better, generating the permutation in such a way that adheres to the pre-requisites imposed.
 
-### Challenges
+## Challenges
 There are two main challenges when it comes to solving this problem.
 
 #### 1.	When no course completion is possible
