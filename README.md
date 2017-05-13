@@ -35,12 +35,14 @@ The following test cases can be verified by running the program.
 Default test case supplied with the coding challenge.
 
 **Expected Output**
+
 Exception – invalid pre-requisite - no way to complete this course.
 
 #### Test Case 2
 A simple test case designed with courses 1-4 with courses 2-4 requiring completion of course 1.
 
 **Expected Output**
+
 Starts with 1, followed with permutation of { 2, 3, 4 }, as follows:
 { 1, 2, 3, 4 }, { 1, 2, 4, 3 }, { 1, 3, 2, 4 }, { 1, 3, 4, 2 }, { 1, 4, 2, 3 }, { 1, 4, 3, 2 }
 
@@ -48,22 +50,26 @@ Starts with 1, followed with permutation of { 2, 3, 4 }, as follows:
 A simple test case designed with courses 1-4 where student is free to do all courses in any order they like (i.e. no pre-requisite is imposed). This test case is covered to measure the worst-case scenario, with low value of n.
 
 **Expected Output**
+
 All permutation of { 1, 2, 3, 4 }.
 
 #### Test Case 4
 This test case is designed to check expected behavior when no courses/pre-requisites are imposed.
 
 **Expected Output**
+
 Empty Result.
 
 #### Test Case 5
 This test case is designed to check expected behavior when one of the course ids in the pre-requisites is invalid.
 
 **Expected Output**
+
 Exception – Invalid pre-requisite.
 
 #### Test Case 6
 Finally, this test case is a modified version of test case 1, where the pre-requisite of course 9 is changed from 5 to 1 in order to remove circular dependency.
 
 **Expected Output**
+
 1500 results, outlined in the expected-output.txt of TestCases/Test6 folder.
