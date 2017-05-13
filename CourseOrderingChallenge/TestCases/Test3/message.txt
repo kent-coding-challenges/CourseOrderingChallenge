@@ -1,0 +1,2 @@
+A simple test case designed with courses 1-4 where student is free to do all courses in any order they like (i.e. no pre-requisite is imposed). This test case is covered to measure the worst-case scenario, with low value of n.
+Expected output is all permutation of 1, 2, 3, 4.

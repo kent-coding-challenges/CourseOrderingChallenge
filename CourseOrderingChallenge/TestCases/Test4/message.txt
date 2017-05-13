@@ -1,0 +1,1 @@
+No course and pre-requisite given. Expects empty output result.
